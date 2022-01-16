@@ -1,0 +1,26 @@
+instalar node y npm, necesitamos una version 14 o superios de node
+
+	sudo apt update
+	cd ~
+	curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh // instalará la versión 16
+	sudo bash nodesource_setup.sh
+	sudo apt install nodejs
+	node -v // vamos a ver la versión 16
+	sudo apt install npm
+	
+creamos una carpeta que será la que contendrá el curso
+	mkdir curso_react
+	
+clonamos el repositorio
+	git clone URL_REPOSITORIO	
+
+generamos la aplicación con el CLI
+	create-react-app fundamentos
+
+Esto generará la estructura del proyecto
+Entramos a fundamento y corremos el comando que inicia el servidor
+	cd fundamentos
+	npm start
+Se deberá abrir el browser
+
+
